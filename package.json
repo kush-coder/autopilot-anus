@@ -1,0 +1,46 @@
+{
+  "name": "@anus-dev/anus",
+  "version": "0.2.2",
+  "description": "ANUS: a free coding agent in your terminal. Every request goes to the smartest free model that is answering today.",
+  "type": "module",
+  "bin": {
+    "anus": "bin/anus.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "extension",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "0.87.1"
+  },
+  "keywords": [
+    "anus",
+    "coding-agent",
+    "ai-agent",
+    "free",
+    "free-models",
+    "llm",
+    "openrouter",
+    "cli",
+    "terminal",
+    "pi",
+    "opencode-alternative"
+  ],
+  "homepage": "https://anus.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anus-dev/anus.git"
+  },
+  "license": "MIT"
+}
